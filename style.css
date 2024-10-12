@@ -1,0 +1,40 @@
+body {
+  font-family: "Merriweather", serif;
+}
+.header {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.bakground img {
+  height: 100%;
+  width: 100%;
+}
+.top-center img {
+  height: 240px;
+  width: 240px;
+}
+.top-center h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+.top-center {
+  background: url("images/Hero-bg.png") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.btn-primary {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  padding: 20px 43px;
+  border-color: #fff;
+  border-radius: 8px;
+  background: black;
+}
