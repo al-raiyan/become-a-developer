@@ -1,5 +1,5 @@
 body {
-  font-family: "Merriweather", serif;
+  font-family: "Azeret Mono";
 }
 .header {
   position: relative;
@@ -17,6 +17,9 @@ body {
 .top-center h1 {
   font-size: 3em;
   font-weight: bold;
+}
+p {
+  color: #0000008e;
 }
 .top-center {
   background: url("images/Hero-bg.png") no-repeat center center;
@@ -37,4 +40,49 @@ body {
   border-color: #fff;
   border-radius: 8px;
   background: black;
+}
+.faq {
+  margin: 200px;
+}
+.faq-hadding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.faq-hadding h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.faq-title {
+  color: #272727;
+  font-size: 50px;
+  font-weight: 800;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.faq-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.faq-description {
+  font-size: 18px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.faq-items {
+  margin: 50px;
+}
+.faq-content img {
+  height: 500px;
+}
+.faq-batton {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  padding: 20px 43px;
+  border-color: #000000;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0);
 }
