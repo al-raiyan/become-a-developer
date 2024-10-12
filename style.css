@@ -146,3 +146,14 @@ p {
   border-radius: 8px;
   background: white;
 }
+.contact-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 500px;
+}
+.social-links {
+  padding: 10px;
+  display: flex;
+  justify-content: baseline;
+}
